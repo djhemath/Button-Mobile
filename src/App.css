@@ -1,0 +1,42 @@
+.App {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(49, 49, 49);
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.display {
+  display: flex;
+  padding: 20px;
+}
+
+.display textarea {
+  width: 100%;
+  border-radius: 10px;
+  text-align: end;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.display textarea:disabled {
+  background-color: white;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 20px;
+  gap: 15px;
+}
+
+.btn-container .btn {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+  user-select: none;
+}
